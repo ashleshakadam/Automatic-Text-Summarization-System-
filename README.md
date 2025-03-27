@@ -94,7 +94,7 @@ You may draw one of the following based on the analysis:
 
 ## 📬 Contact
 
-For any questions or suggestions, feel free to open an issue or connect via email.
+For any questions or suggestions, feel free to open an issue.
 
 ---
 
