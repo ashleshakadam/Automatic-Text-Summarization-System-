@@ -1,5 +1,4 @@
-# Automatic-Text-Summarization-System-
-Automatic Text Summarization System
+# Automatic-Text-Summarization-System
 
 This repository contains the implementation of an **Automatic Text Summarization System** developed for the **BUAN6342 - Individual Project**. The goal of this project is to assist a committee member in summarizing daily news headlines for morning meetings by identifying the ten most important stories of the day using NLP techniques. Two major NLP libraries – **NLTK** and **spaCy** – are used and compared for their effectiveness in preprocessing and summarization.
 
