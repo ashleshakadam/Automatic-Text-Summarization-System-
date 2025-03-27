@@ -7,9 +7,9 @@ This repository contains the implementation of an **Automatic Text Summarization
 
 ## 📁 Project Structure
 
-headlines.csv               # Dataset containing news headlines
-summarization_project.ipynb # Jupyter Notebook with full implementation
-README.md                   # Project documentation
+- headlines.csv 
+- summarization_project.ipynb
+- README.md
 
 ---
 
