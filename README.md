@@ -1,102 +1,75 @@
-# Automatic-Text-Summarization-System
+# Automatic Text Summarization System
 
-This repository contains the implementation of an **Automatic Text Summarization System** developed for the **BUAN6342 - Individual Project**. The goal of this project is to assist a committee member in summarizing daily news headlines for morning meetings by identifying the ten most important stories of the day using NLP techniques. Two major NLP libraries – **NLTK** and **spaCy** – are used and compared for their effectiveness in preprocessing and summarization.
+## Overview
+A natural language processing system designed to generate concise and coherent summaries from long-form textual data. The project focuses on reducing information overload by extracting or generating key insights while preserving semantic meaning.
 
----
+The system demonstrates how NLP techniques can be applied to transform unstructured text into actionable summaries for analytical and decision-making workflows.
 
-## 📁 Project Structure
+## Business Problem
+Organizations deal with large volumes of textual data including reports, articles, and documents. Manually reviewing this information is time-consuming and inefficient.
 
-- headlines.csv 
-- summarization_project.ipynb
-- README.md
+## An automated summarization system enables:
+- faster information consumption
+- improved decision-making efficiency
+- scalable analysis of unstructured data
 
----
+## Solution
+This project implements a text summarization pipeline that:
+- preprocesses raw textual data
+- applies summarization techniques (extractive or abstractive)
+- generates concise summaries while preserving key information
 
-## 📌 Objectives
+## Methodology
+Text Preprocessing
+- tokenization and normalization
+- stopword removal
+- sentence segmentation
 
-- Perform text preprocessing using **NLTK** and **spaCy**
-- Apply POS tagging and Named Entity Recognition (NER)
-- Vectorize text using **CountVectorizer** and **TF-IDF**
-- Classify and summarize news headlines using **TextRank**
-- Compare the summarization results between **NLTK** and **spaCy**
-- Visualize outputs using **matplotlib**
-- Deliver insights via a PowerPoint presentation
+## Summarization Approach
 
----
+## Extractive
+- ranks sentences based on importance
+- selects top sentences using scoring mechanisms
 
-## ⚙️ Technologies Used
+## Abstractive
+- generates summaries using sequence-to-sequence models
+- captures semantic meaning beyond direct extraction
 
-- Python 3.x
-- Jupyter Notebook
-- **NLTK**
-- **spaCy**
-- **Scikit-learn**
-- **Matplotlib**
-- **Pandas**
+## Evaluation
+- assessed summary quality based on coherence and information retention
+- compared outputs against original text
 
----
+## Results
+- Successfully reduced long-form text into concise summaries
+- Preserved key information while eliminating redundancy
+- Demonstrated practical applicability for document analysis workflows
 
-## 📊 Summary Flow
+## Tech Stack
+- Python
+- Natural Language Processing libraries (NLTK / spaCy)
+- Machine Learning / Deep Learning frameworks
 
-### Part 1 – NLTK
-1. Load dataset with Pandas
-2. Preprocess headlines: tokenization, stop word removal, stemming, lemmatization
-3. Apply POS tagging and NER using NLTK
-4. Use CountVectorizer and TF-IDF for vectorization
-5. Generate summary using TextRank or alternative technique
-6. Visualize and extract top 10 key headlines
+## Repository Structure
 
-### Part 2 – spaCy & Scikit-learn
-1. Load and preprocess using spaCy
-2. Apply spaCy’s POS tagging and NER
-3. Use spaCy pipeline for efficient processing
-4. Classify using TF-IDF and LinearSVC in Scikit-learn pipeline
-5. Summarize using TextRank
-6. Visualize and extract top 10 headlines
+Automatic-Text-Summarization-System/
+├── notebooks/
+│   └── summarization.ipynb
+├── data/
+├── outputs/
+└── README.md
 
----
+## How to Run
 
-## 📷 Output Comparison
+git clone https://github.com/ashleshakadam/Automatic-Text-Summarization-System.git
+cd Automatic-Text-Summarization-System
+pip install -r requirements.txt
+jupyter notebook
 
-At the end of the notebook:
-- Two grids display top 10 headline summaries side-by-side:
-  - **Left**: NLTK results
-  - **Right**: spaCy results
+## Future Improvements
+- integrate transformer-based models for higher-quality summaries
+- evaluate using ROUGE and BLEU metrics
+- support multi-document summarization
+- deploy as an API for real-time summarization
 
----
-
-## 📽 Presentation Overview
-
-1. Importance of preprocessing, POS, and NER
-2. Workflow flowcharts for both methods
-3. Visual summary comparison
-4. Final conclusion on performance and efficiency
-
----
-
-## ✅ Conclusion Options
-
-You may draw one of the following based on the analysis:
-- NLTK is slightly more efficient
-- spaCy outperforms NLTK
-- Both libraries are effective, and choice depends on project needs
-
----
-
-## 🏆 Project Highlights
-
-- End-to-end NLP pipeline for summarizing real-world news data
-- Comparison of top NLP libraries: NLTK vs spaCy
-- Visual storytelling through summary and PowerPoint presentation
-
----
-
-## 📬 Contact
-
-For any questions or suggestions, feel free to open an issue.
-
----
-
-
-**Author:** Ashlesha Sanjay Kadam
-
+## Author
+Ashlesha Kadam
