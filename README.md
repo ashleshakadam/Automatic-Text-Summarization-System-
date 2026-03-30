@@ -50,20 +50,22 @@ Text Preprocessing
 - Machine Learning / Deep Learning frameworks
 
 ## Repository Structure
-
+```
 Automatic-Text-Summarization-System/
 ├── notebooks/
 │   └── summarization.ipynb
 ├── data/
 ├── outputs/
 └── README.md
+```
 
 ## How to Run
-
+```
 git clone https://github.com/ashleshakadam/Automatic-Text-Summarization-System.git
 cd Automatic-Text-Summarization-System
 pip install -r requirements.txt
 jupyter notebook
+```
 
 ## Future Improvements
 - integrate transformer-based models for higher-quality summaries
